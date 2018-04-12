@@ -131,7 +131,7 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/cc.png"
     date: "Curta e compratilhe"
     description: "Divulgue o projeto nas redes sociais."
   - image: "/img/timeline/baracktocat.jpg"
