@@ -12,7 +12,7 @@ url: "https://le4ker.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: 
 
 # Google tracking id
 
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "APRENDER.digital"
+title: "{ DNLI }"
+description: "Site do projeto Dia Nacional do Livro Infantil"
+keywords: "dia, nacional, livro, infantil, dnli"
 favicon: "/img/favicon.ico"
 
 ################
@@ -132,12 +132,19 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "Curta e compratilhe"
+    description: "Divulgue o projeto nas redes sociais."
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "Vista a camisa"
+    description: "Vista a nossa camisa virtual."
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "Apoiadores"
+    description: "Conheça as empresas e as pessoas que apoiam este projeto."
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "Colabore"
+    description: "Apoie você também!."
 
+    
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
@@ -146,7 +153,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "info@aprender.digital"
 
 ################
 # Author Blurb #
@@ -196,10 +203,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  Sobre: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contact: 'contact'
+  Jornada: 'timeline'
+  Contato: 'contact'
 
 # Exclusion list from the generated _site
 
