@@ -41,24 +41,27 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/naira.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "O leitor que mais admiro é aquele que não chegou até a presente linha."
+  - text: "Neste momento já interrompeu a leitura e está continuando a viagem por conta própria. <i>(Mário Quintana)</i>"
+  - text: "O importante é motivar a criança para leitura, para a aventura de ler. <i>(Ziraldo)</i>" 
+  - text: "A leitura é uma fonte inesgotável de prazer, mas, por incrível que pareça, a quase totalidade não sente esta sede. <i>
+(Drummond)</i>"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/meninolendo.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -204,8 +207,8 @@ keybase-in-footer: True
 
 pages_list:
   Sobre: 'about'
-  Blog: 'latest-post'
   Jornada: 'timeline'
+  Blog: 'latest-post'
   Contato: 'contact'
 
 # Exclusion list from the generated _site
