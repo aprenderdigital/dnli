@@ -137,17 +137,19 @@ events:
   - image: "/img/timeline/cc.png"
     date: "Curta e compratilhe"
     description: "Divulgue o projeto nas redes sociais."
-    link:
+    link: "/tech/2017/04/15/compartilhe.html"
   - image: "/img/timeline/baracktocat.jpg"
     date: "Vista a camisa"
     description: "Vista a nossa camisa virtual."
+    link: ""
   - image: "/img/timeline/baracktocat.jpg"
     date: "Apoiadores"
     description: "Conheça as empresas e as pessoas que apoiam este projeto."
+    link: ""
   - image: "/img/timeline/baracktocat.jpg"
     date: "Colabore"
     description: "Apoie você também!."
-
+    link: ""
     
 # First image of the Timeline
 
