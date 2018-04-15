@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://dnli.aprender.digital"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -137,6 +137,7 @@ events:
   - image: "/img/timeline/cc.png"
     date: "Curta e compratilhe"
     description: "Divulgue o projeto nas redes sociais."
+    link:
   - image: "/img/timeline/baracktocat.jpg"
     date: "Vista a camisa"
     description: "Vista a nossa camisa virtual."
