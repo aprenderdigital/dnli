@@ -125,7 +125,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+#disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
@@ -142,18 +142,18 @@ events:
     date: "Vista a camisa"
     description: "Vista a nossa camisa virtual."
     link: "/tech/2017/04/15/vista-a-camisa.html"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/apoiadores.png"
     date: "Apoiadores"
     description: "Conheça as empresas e as pessoas que apoiam este projeto."
     link: "/tech/2017/04/15/apoiadores.html"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/colabore.png"
     date: "Colabore"
-    description: "Apoie você também!."
+    description: "Apoie você também!"
     link: ""
     
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/meninolendo.jpg"
 
 ###########
 # Contact #
@@ -178,13 +178,9 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://www.facebook.com/DiaNacionalDoLivroInfantil/"
   - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://twitter.com/DNLI_oficial"
   - title: "rss"
     url: "/feed.xml"
 
@@ -199,8 +195,8 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
