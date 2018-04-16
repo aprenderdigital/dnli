@@ -148,8 +148,8 @@ events:
     link: "/tech/2017/04/15/apoiadores.html"
   - image: "/img/timeline/colabore.png"
     date: "Colabore"
-    description: "Apoie você também!"
-    link: ""
+    description: "Você também pode colaborar!"
+    link: "/tech/2017/04/15/colabore.html"
     
 # First image of the Timeline
 
