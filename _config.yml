@@ -145,7 +145,7 @@ events:
   - image: "/img/timeline/baracktocat.jpg"
     date: "Apoiadores"
     description: "Conheça as empresas e as pessoas que apoiam este projeto."
-    link: ""
+    link: "/tech/2017/04/15/apoiadores.html"
   - image: "/img/timeline/baracktocat.jpg"
     date: "Colabore"
     description: "Apoie você também!."
