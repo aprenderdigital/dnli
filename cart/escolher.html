@@ -44,7 +44,7 @@
         if (textoBotao.indexOf("bselect.png") > 0) {
             document.getElementsByName('carrinho')[0].src = endItem;
             document.getElementsByName('botao')[0].src = "/cart/loading.gif";
-            setTimeout(turnoffLoading, 4000);
+            setTimeout(turnoffLoading, 5000);
         } else {
             var stateObj = { foo: "bar" };
             history.pushState(stateObj, "Recompensas", "/tech/2017/04/15/colabore.html");
