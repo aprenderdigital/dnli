@@ -63,6 +63,21 @@
   color: white;
 }
 
+.pricingdiv ul.theplan:nth-of-type(4) li.title{
+  background: rgb(255, 153, 0);
+  color: rgb(255, 255, 255);
+}
+
+.pricingdiv ul.theplan:nth-of-type(5) li.title{
+  background: rgb(204, 0, 204);
+  color: rgb(255, 255, 255);
+}
+
+.pricingdiv ul.theplan:nth-of-type(6) li.title{
+  background: rgb(0, 153, 51);
+  color: rgb(255, 255, 255);
+}
+
 .pricingdiv ul.theplan li b{
   text-transform: uppercase;
 }

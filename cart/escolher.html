@@ -23,10 +23,22 @@
         var endItem = "";
         switch (parametro) {
             case "1":
-                endItem = "/cart/adicionar.html?item=93990";
+                endItem = "/cart/adicionar.html?item=94033";
                 break;
             case "2":
-                endItem = "/cart/adicionar.html?item=93989";
+                endItem = "/cart/adicionar.html?item=94034";
+                break;
+            case "3":
+                endItem = "/cart/adicionar.html?item=94035";
+                break;
+            case "4":
+                endItem = "/cart/adicionar.html?item=94036"; 
+                break;
+            case "5":
+                endItem = "/cart/adicionar.html?item=94037";
+                break;
+            case "6":
+                endItem = "/cart/adicionar.html?item=94038";
                 break;
         }
         if (textoBotao.indexOf("bselect.png") > 0) {
@@ -34,6 +46,8 @@
             document.getElementsByName('botao')[0].src = "/cart/loading.gif";
             setTimeout(turnoffLoading, 4000);
         } else {
+            var stateObj = { foo: "bar" };
+            history.pushState(stateObj, "Recompensas", "/tech/2017/04/15/colabore.html");
             window.open("https://www.moip.com.br/ProcessShoppingCart.do?method=view&id=info@aprender.digital", "_blank");
         }
     }
