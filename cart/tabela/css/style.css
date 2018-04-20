@@ -74,6 +74,11 @@
 }
 
 .pricingdiv ul.theplan:nth-of-type(6) li.title{
+  background:rgb(24, 64, 240);
+  color: rgb(255, 255, 255);
+}
+
+.pricingdiv ul.theplan:nth-of-type(7) li.title{
   background: rgb(0, 153, 51);
   color: rgb(255, 255, 255);
 }
