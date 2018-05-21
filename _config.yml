@@ -137,19 +137,19 @@ events:
   - image: "/img/timeline/cc.png"
     date: "Curta e compratilhe"
     description: "Divulgue o projeto nas redes sociais."
-    link: "/tech/2017/04/15/compartilhe.html"
+    link: "/tech/2018/04/15/compartilhe.html"
   - image: "/img/timeline/vista-a-camisa.png"
     date: "Vista a camisa"
     description: "Vista a nossa camisa virtual."
-    link: "/tech/2017/04/15/vista-a-camisa.html"
+    link: "/tech/2018/04/15/vista-a-camisa.html"
   - image: "/img/timeline/apoiadores.png"
     date: "Apoiadores"
     description: "Conheça as empresas e as pessoas que apoiam este projeto."
-    link: "/tech/2017/04/15/apoiadores.html"
+    link: "/tech/2018/04/15/apoiadores.html"
   - image: "/img/timeline/colabore.png"
     date: "Apoie você também!"
     description: "Você também pode colaborar!"
-    link: "/tech/2017/04/15/colabore.html"
+    link: "/tech/2018/04/15/colabore.html"
     
 # First image of the Timeline
 
