@@ -1,0 +1,68 @@
+<script>
+    //console.log("escolher");
+
+    function qs(search_for) {
+        var query = window.location.search.substring(1);
+        var parms = query.split('&');
+        for (var i = 0; i < parms.length; i++) {
+            var pos = parms[i].indexOf('=');
+            if (pos > 0 && search_for == parms[i].substring(0, pos)) {
+                return parms[i].substring(pos + 1);;
+            }
+        }
+        return "";
+    }
+
+    function turnoffLoading() {
+        document.getElementsByName('botao')[0].src = "/cart/blista.png";
+    }
+
+    function incluir() {
+        var parametro = qs("item");
+        var textoBotao = document.getElementsByName('botao')[0].src;
+        var endItem = "";
+        switch (parametro) {
+            case "1":
+                endItem = "/cart/adicionar.html?item=94033";
+                break;
+            case "2":
+                endItem = "/cart/adicionar.html?item=94034";
+                break;
+            case "3":
+                endItem = "/cart/adicionar.html?item=94035";
+                break;
+            case "4":
+                endItem = "/cart/adicionar.html?item=94036"; 
+                break;
+            case "5":
+                endItem = "/cart/adicionar.html?item=94037";
+                break;
+            case "6":
+                endItem = "/cart/adicionar.html?item=94038";
+                break;
+            case "7":
+                endItem = "/cart/adicionar.html?item=94054";
+                break;
+        }
+        if (textoBotao.indexOf("bselect.png") > 0) {
+            document.getElementsByName('carrinho')[0].src = endItem;
+            document.getElementsByName('botao')[0].src = "/cart/loading.gif";
+            setTimeout(turnoffLoading, 5000);
+        } else {
+            var stateObj = { foo: "bar" };
+            history.pushState(stateObj, "Recompensas", "/tech/2017/04/15/colabore.html");
+            window.open("https://www.moip.com.br/ProcessShoppingCart.do?method=view&id=info@aprender.digital", "_blank");
+        }
+    }
+
+    var imgLoading = new Image();
+    imgLoading.src = "/cart/loading.gif"
+</script>
+
+<body>
+    <center>
+    <img name=botao src="/cart/bselect.png" style="vertical-align:top" onclick="incluir()" />
+    </center>
+    <br><br>
+    <iframe name="carrinho"></iframe>
+</body>
