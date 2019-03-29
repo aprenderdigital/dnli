@@ -1,4 +1,4 @@
-console.log("b");
+console.log("c");
 setInterval(checkLike(), 1000);
 
 //Verifica se já curtiu a página
@@ -8,7 +8,7 @@ FB.init({
     cookie : true, // enable cookies to allow the server to access the session
 });
 
-funcion checkLike() {
+function checkLike() {
 console.log(document.getElementsByClassName("pluginConnectButton").length);
 });
 
