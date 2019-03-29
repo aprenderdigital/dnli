@@ -1,5 +1,5 @@
-console.log("e");
-setInterval(checkLike, 1000);
+console.log("g");
+setTimeout(checkLike, 2000);
 
 //Verifica se já curtiu a página
 FB.init({
@@ -10,7 +10,7 @@ FB.init({
 
 
 function checkLike() {
-console.log(document.getElementsByClassName("pluginConnectButton").length);
+console.log(document.getElementsById("facebookSpam").innerHTML);
 }
 
 /*
