@@ -1,5 +1,5 @@
-console.log("d");
-setInterval(checkLike(), 1000);
+console.log("e");
+setInterval(checkLike, 1000);
 
 //Verifica se já curtiu a página
 FB.init({
