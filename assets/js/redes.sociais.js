@@ -5,7 +5,7 @@ FB.init({
     cookie : true, // enable cookies to allow the server to access the session
 });
 
-FB.ui({
+/*FB.ui({
     method: 'share',
     href: 'https://developers.facebook.com/docs/'
   }, function(response){});
