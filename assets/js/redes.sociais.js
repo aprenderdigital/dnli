@@ -10,7 +10,7 @@
     alert(response.authResponse.userID);
     user_id = response.authResponse.userID;
   });
-
+alert (user_id);
 FB.api({ method: 'fql.query', query: 
          'SELECT uid FROM page_fan WHERE uid='+user_id+' AND page_id=1707310592820237' },
     function(result) {
