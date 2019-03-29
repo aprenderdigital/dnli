@@ -5,7 +5,11 @@ FB.init({
     cookie : true, // enable cookies to allow the server to access the session
 });
 
-/*FB.ui({
+console.log(document.getElementsByClassName("sp_cEqlGc0Xkyr").innerHTML);
+/*
+class="_3-8_ img sp_cEqlGc0Xkyr sx_f51c0b"
+
+FB.ui({
     method: 'share',
     href: 'https://developers.facebook.com/docs/'
   }, function(response){});
