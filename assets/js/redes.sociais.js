@@ -13,7 +13,7 @@ var user_id = 0;
     FB.api({ method: 'fql.query', query: 
     'SELECT uid FROM page_fan WHERE uid='+user_id+' AND page_id=1707310592820237' },
     function(result) {
-        console.log("FB.api");
+        console.log('SELECT uid FROM page_fan WHERE uid='+user_id+' AND page_id=1707310592820237');
         if (result.length){ 
             document.getElementById("textoCurtir").innerHTML = "Já curtiu";
         } 
@@ -22,5 +22,5 @@ var user_id = 0;
         }
     })
   });
-alert (user_id);
+
 
