@@ -1,7 +1,4 @@
-console.log("h");
-setTimeout(checkLike, 2000);
-
-//Verifica se já curtiu a página
+/*
 FB.init({
     appId  : '1882232665401443',
     status : true, // check login status
@@ -13,7 +10,7 @@ function checkLike() {
 console.log(document.getElementById("facebookSpam").innerHTML);
 }
 
-/*
+
 class="_3-8_ img sp_cEqlGc0Xkyr sx_f51c0b"
 
 FB.ui({
@@ -25,8 +22,8 @@ FB.ui({
     console.log(response);
   });
 var user_id = 0;
-  
- /* FB.getLoginStatus(function(response) {
+
+FB.getLoginStatus(function(response) {
     console.log("FB.getLoginStatus");
     console.log(response.user_id);
     window.user_id = response.authResponse.user_id;
