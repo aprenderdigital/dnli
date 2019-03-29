@@ -5,7 +5,10 @@ FB.init({
     cookie : true, // enable cookies to allow the server to access the session
 });
 
+FB.getLoginStatus(function(response) {
 console.log(document.getElementsByClassName("pluginConnectButton").length);
+});
+
 /*
 class="_3-8_ img sp_cEqlGc0Xkyr sx_f51c0b"
 
