@@ -5,7 +5,11 @@
     cookie : true, // enable cookies to allow the server to access the session
   });
  
-  var user_id = response.session.uid;
+  var user_id = 0;
+  FB.getLoginStatus(function(response) {
+    alert(response.authResponse.userID);
+    user_id = response.authResponse.userID;
+  });
 
 FB.api({ method: 'fql.query', query: 
          'SELECT uid FROM page_fan WHERE uid='+user_id+' AND page_id=1707310592820237' },
