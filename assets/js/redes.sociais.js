@@ -9,7 +9,8 @@ var user_id = 0;
   
   FB.getLoginStatus(function(response) {
     console.log("FB.getLoginStatus");
-    window.user_id = response.authResponse.userID;
+    window.user_id = response.authResponse.user_id;
+    console.log()
     FB.api({ method: 'fql.query', query: 
     'SELECT uid FROM page_fan WHERE uid='+user_id+' AND page_id=1707310592820237' },
     function(result) {
