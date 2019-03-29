@@ -1,4 +1,6 @@
-console.log("a");
+console.log("b");
+setInterval(checkLike(), 1000);
+
 //Verifica se já curtiu a página
 FB.init({
     appId  : '1882232665401443',
@@ -6,8 +8,7 @@ FB.init({
     cookie : true, // enable cookies to allow the server to access the session
 });
 
-FB.getLoginStatus(function(response) {
-
+funcion checkLike() {
 console.log(document.getElementsByClassName("pluginConnectButton").length);
 });
 
