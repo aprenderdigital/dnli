@@ -9,12 +9,12 @@ FB.ui({
     method: 'share',
     href: 'https://developers.facebook.com/docs/'
   }, function(response){});
-  
+
 var user_id = 0;
   
   FB.getLoginStatus(function(response) {
     console.log("FB.getLoginStatus");
-    console.log(response);
+    console.log(response.user_id);
     window.user_id = response.authResponse.user_id;
     console.log();
 
