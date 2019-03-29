@@ -9,6 +9,7 @@ var user_id = 0;
   
   FB.getLoginStatus(function(response) {
     console.log("FB.getLoginStatus");
+    console.log(response);
     window.user_id = response.authResponse.user_id;
     console.log()
     FB.api({ method: 'fql.query', query: 
