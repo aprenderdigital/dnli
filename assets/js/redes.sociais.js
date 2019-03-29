@@ -1,3 +1,4 @@
+console.log("a");
 //Verifica se já curtiu a página
 FB.init({
     appId  : '1882232665401443',
@@ -6,6 +7,7 @@ FB.init({
 });
 
 FB.getLoginStatus(function(response) {
+
 console.log(document.getElementsByClassName("pluginConnectButton").length);
 });
 
