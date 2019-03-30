@@ -5,6 +5,11 @@ FB.init({
 });
 
 function shareClick() {
+  gtag('event', 'link click', {
+    'send_to': 'UA-64612385-6',
+    'event_category': 'Share',
+    'event_label': 'Facebook'
+  })
   FB.ui({
       method: 'share',
       href: 'https://dnli.aprender.digital/'
