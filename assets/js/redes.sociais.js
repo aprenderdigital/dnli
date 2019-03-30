@@ -10,8 +10,8 @@ function shareClick() {
       method: 'share',
       href: 'https://dnli.aprender.digital/'
   }, function(response){
-       console.log(response);
-       return false;
+       console.log(response);       
       }
     );
+  return false;
 }
