@@ -5,7 +5,7 @@ FB.init({
 });
 
 function shareClick() {
-  console.log("shareClick3");
+  console.log("shareClick4");
   FB.ui({
       method: 'share',
       href: 'https://dnli.aprender.digital/'
