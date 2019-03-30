@@ -5,8 +5,13 @@ FB.init({
 });
 
 function shareClick() {
+  console.log("shareClick");
   FB.ui({
       method: 'share',
       href: 'https://dnli.aprender.digital/'
-  }, function(response){console.log(response)});
+  }, function(response){
+       console.log(response);
+       return false;
+      }
+    );
 }
